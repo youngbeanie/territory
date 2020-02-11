@@ -108,18 +108,8 @@ int main() {
     } else {
         string line;
         while(getline(fin, line)) {
-            string name;
-            string address;
-            string city;
-            string phNumber;
-            // name
-            string strN;
-            // address
-            string strA;
-            // city
-            string strC;
-            // phone number
-            string strP;
+            string name, address, city, phNumber;
+            string strN, strA, strC, strP;
 
             istringstream iss(line);
 
